@@ -149,6 +149,11 @@ img {
 }
 
 @media (min-width: 1250px) {
+    .container {
+        margin: 1em auto;
+        max-width: 1250px;
+    }
+
     .featured-work-container {
         justify-content: space-between;
     }
