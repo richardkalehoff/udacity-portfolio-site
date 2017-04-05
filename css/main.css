@@ -131,3 +131,13 @@ img {
         width: 80%;
     }
 }
+
+@media (min-width: 1250px) {
+    .featured-work-container {
+        justify-content: space-between;
+    }
+
+    .featured-work-container li {
+        flex-basis: calc(100% / 3 - 2em);
+    }
+}
