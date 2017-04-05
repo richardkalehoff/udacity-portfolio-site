@@ -56,6 +56,12 @@ header {
     background-color: var(--steel);
 }
 
+.message {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 2em;
+}
+
 img {
     max-width: 100%;
 }
@@ -129,7 +135,7 @@ img {
 
     .color-swatches {
         order: -1;
-        grid-row: 2 / 4;
+        grid-row: 2 / 5;
         flex-direction: column;
         justify-content: initial;
         align-items: center;
