@@ -77,6 +77,16 @@ img {
 }
 
 @media (min-width: 650px) {
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    .headings {
+        flex: 1;
+        text-align: right;
+    }
+
     .featured-work-container {
         flex-direction: row;
         flex-wrap: wrap;
