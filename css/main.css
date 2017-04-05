@@ -38,3 +38,19 @@ header {
 img {
     max-width: 100%;
 }
+
+.color-swatches {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+}
+
+.color-swatches li {
+    flex: 0 1 30%;
+    text-align: center;
+}
+
+.swatch {
+    min-height: 7em;
+}
