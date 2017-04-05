@@ -75,3 +75,15 @@ img {
 .swatch {
     min-height: 7em;
 }
+
+@media (min-width: 650px) {
+    .featured-work-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .featured-work-container li {
+        width: 45%;
+    }
+}
