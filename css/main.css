@@ -29,15 +29,15 @@ header {
     padding-left: 0;
 }
 
-#udacity-blue {
+#swatch-1 {
     background-color: var(--udacity-blue);
 }
 
-#dark {
+#swatch-2 {
     background-color: var(--dark);
 }
 
-#steel {
+#swatch-3 {
     background-color: var(--steel);
 }
 
