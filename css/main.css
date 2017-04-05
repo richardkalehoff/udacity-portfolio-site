@@ -87,3 +87,17 @@ img {
         width: 45%;
     }
 }
+
+@media (min-width: 800px) {
+    .color-swatches {
+        justify-content: space-around;
+    }
+
+    .color-swatches li {
+        flex-basis: 20%;
+    }
+
+    .swatch {
+        min-height: 9em;
+    }
+}
